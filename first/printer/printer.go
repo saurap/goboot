@@ -1,3 +1,7 @@
-package main
+package printer
 
-import "github.com/inancgumus//"
+import "fmt"
+
+func Hello() {
+	fmt.Println("exported hello")
+}
